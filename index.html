@@ -20,7 +20,7 @@
 </head>
 <body>
     <div class="container"> 
-        <div class="jumbotron border" style="background-color: orange;padding: 5px;font-weight: bold;">
+        <div class="jumbotron" style="padding: 10px;font-weight: bold;border: 1px double;">
             <div class="h1">Crystal Collector</div>
             <p class="lead">Simple game to guess randomly generated number using jQuery.</p>
             <hr class="my-4">
@@ -28,31 +28,31 @@
         </div>
         <div class="gamecontent" style="background-color: white;">
             <div class="row gamepanel">
-                <div class="col-sm-6 bg-success" id="randomNumber">0</div>
+                <div class="col-sm-6 bg-danger" id="randomNumber">0</div>
                 <div class="col-sm-6 bg-info">
                     <div class="row textFormat">Wins: <span id="wins"></span></div>
-                    <div class="row textFormat">Losses: <span id="losses"></span></div>
+                    <div class="row textFormat" >Losses: <span id="losses"></span></div>
                 </div>
             </div>
             <div class="row crystalimages">
-                <div class="col-sm-3" >
+                <div class="col-sm-3" id="crystal-1">
                     <img src="assets/images/blue.png" alt="blue gem" id="one"/>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3" id="crystal-2">
                         <img src="assets/images/green.png" alt="green gem" id="two"/>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3" id="crystal-3">
                         <img src="assets/images/red.png" alt="red gem" id="three"/>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3" id="crystal-4">
                         <img src="assets/images/yellow.png" alt="yello gem" id="four"/>
                 </div>
             </div>
-            <div class="row scorePanel">
-                    <div class="col-sm-6 bg-success">
+            <div class="row scorePanel textFormat text-center">
+                    <div class="col-sm-6 bg-info " id="scoreHeader">
                         <p>Your score is:</p>
                     </div>
-                    <div class="col-sm-6 bg-info" id="total"></div>
+                    <div class="col-sm-6 bg-danger" id="total"></div>
     </div>
     </div>
     <!-- BootStrap scripts-->
