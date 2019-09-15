@@ -1,8 +1,10 @@
 /*Homework*/
 body{
     font-family: 'Poppins', sans-serif;
-    background-image:url("../images/stardust.png");
-    color: black;
+    background-image:url("../images/blue-crytal.jpg");
+}
+.container{
+    color:black;
 }
 #randomNumber{
     font-style: bold;
@@ -23,7 +25,7 @@ img{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0px;  
-    width: 15%;
+    width: 25%;
     border: 1px solid;
     box-shadow: 5px 10px #888888;
 }
@@ -32,7 +34,8 @@ img{
 }
 .crystalimages{
     padding: 0px;
-
+    border: 1px solid;
+    min-height: 100px;
 }
 #one{
     margin-left: 20px;
@@ -42,4 +45,7 @@ img{
 }
 .scorePanel{
     min-height: 100px;
+}
+#scoreHeader,#total{
+    padding-top: 20px;
 }
